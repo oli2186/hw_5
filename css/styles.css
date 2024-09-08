@@ -1,0 +1,65 @@
+@import url('reset.css');
+
+.container {
+    width:1200px;
+    margin: 0 auto;
+}
+.first {
+    background: yellow;
+    font-size: 0;
+}
+.first div,
+.second div,
+.third div,
+.fourth div
+ {
+    outline: 2px solid red;
+}
+.first>div {
+width: 400px;
+height: 400px;
+display: inline-block;
+font-size: 20px;
+}
+.second {
+    background: orange;
+    font-size: 0;
+}
+.second>div {
+    display: inline-block;
+    width: 800px;
+    font-size: 20px;
+    vertical-align: top;
+}
+.second>div>div {
+    height: 200px;
+}
+.second>div+div {
+    width: 400px;
+}
+.second>div+div>div {
+    height: 133.33px;
+}
+.third {
+background: green;
+font-size: 0;
+}
+.third>div {
+    display: inline-block;
+    width: 400px;
+    font-size: 20px;
+    vertical-align: top;
+}
+.third>div+div {
+    width: 800px;
+}
+.fourth {
+    background: green;
+    font-size: 0;
+}
+.fourth>div {
+    display: inline-block;
+    width: 400px;
+    font-size: 20px;
+    vertical-align: top;
+}
