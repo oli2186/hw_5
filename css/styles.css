@@ -47,11 +47,16 @@ font-size: 0;
 .third>div {
     display: inline-block;
     width: 400px;
+    height: 400px;
     font-size: 20px;
     vertical-align: top;
 }
 .third>div+div {
     width: 800px;
+}
+.third>div+div>div {
+    width: 800px;
+    height: 200px;
 }
 .fourth {
     background: green;
@@ -60,6 +65,7 @@ font-size: 0;
 .fourth>div {
     display: inline-block;
     width: 400px;
+    height: 200px;
     font-size: 20px;
     vertical-align: top;
 }
